@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+
+body {
+  /* width: 100%; */
+  background-color: #100c08;
+}
+
+.svg-box {
+  position: absolute;
+  animation-name: rotateSplash;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+
+h1 {
+  /* font-family: "Rowdies", sans-serif;
+  font-weight: 500; */
+  font-family: "Rubik Moonrocks", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+  font-size: 250px;
+  color: white;
+}
+
+/*
+.container{
+  //background-color:pink;
+  height:100%;
+  width: 100%;
+  margin:auto;
+  position:relative;
+  display:block;  
+}*/
+
+@keyframes rotateSplash {
+  0% {
+    transform: scale(0.3);
+  }
+
+  100% {
+    transform: scale(1.0);
+  }
+}
+
+#blue {
+  height: 100px;
+  width: 100px;
+  border: 1px solid blue;
+  background: blue;
+  margin-left: 500px;
+  margin-top: 50px;
+}
